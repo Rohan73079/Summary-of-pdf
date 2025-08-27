@@ -1,0 +1,28 @@
+export const themeClasses = {
+  dark: {
+    bg: "bg-gray-900",
+    text: "text-gray-200",
+    textSecondary: "text-gray-400",
+    textAccent: "text-green-400",
+    cardBg: "bg-gray-800/50 border-gray-700",
+    controlBg: "bg-gray-800",
+    button: "bg-green-500 hover:bg-green-600",
+    buttonSecondary: "bg-gray-700 hover:bg-gray-600",
+    buttonActive: "bg-green-500 text-white",
+    dropZone: "border-gray-600 hover:border-gray-500",
+    dropZoneActive: "border-green-400 bg-green-500/10",
+  },
+  light: {
+    bg: "bg-gray-100",
+    text: "text-gray-800",
+    textSecondary: "text-gray-500",
+    textAccent: "text-green-600",
+    cardBg: "bg-white/70 border-gray-200",
+    controlBg: "bg-white",
+    button: "bg-green-500 hover:bg-green-600",
+    buttonSecondary: "bg-gray-200 hover:bg-gray-300",
+    buttonActive: "bg-green-500 text-white",
+    dropZone: "border-gray-300 hover:border-gray-400",
+    dropZoneActive: "border-green-500 bg-green-50",
+  },
+};
