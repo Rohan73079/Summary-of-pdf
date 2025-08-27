@@ -32,6 +32,3 @@ It allows users to **upload PDFs or images**, **extract text**, **generate AI su
 
 ---
 
-## 📂 Project Structure
-
-(Will be added later...)
