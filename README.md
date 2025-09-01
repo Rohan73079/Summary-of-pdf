@@ -1,7 +1,7 @@
 
-# 📄 SnapRead — AI-Powered PDF & Image Summarizer
+# 📄 Su?mary of Pdf — AI-Powered PDF & Image Summarizer
 
-SnapRead is an **AI-powered summarization app** built using **React**, **Vite**, **TailwindCSS**, and **Google Gemini API**.  
+Summary of Pdf is an **AI-powered summarization app** built using **React**, **Vite**, **TailwindCSS**, and **Google Gemini API**.  
 It allows users to **upload PDFs or images**, **extract text**, **generate AI summaries**, and **manage summary history**.
 
 ---
