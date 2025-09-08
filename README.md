@@ -34,10 +34,13 @@ The app supports **dark/light mode, drag & drop uploads, history of summaries, d
 ## 📸 Screenshots
 
 ### 🖥️ Main Dashboard
-*(Add screenshot here)*
+<img width="2239" height="1200" alt="image" src="https://github.com/user-attachments/assets/dd581000-6948-41eb-93fc-6fd01de50142" />
+<img width="2219" height="1198" alt="image" src="https://github.com/user-attachments/assets/d570d16b-f6c8-489d-bed9-457745169bab" />
+
 
 ### 🌙 Dark Mode
-*(Add screenshot here)*
+<img width="2239" height="1201" alt="image" src="https://github.com/user-attachments/assets/e13490cb-b5da-48db-8603-59429114dad2" />
+<img width="2239" height="1207" alt="image" src="https://github.com/user-attachments/assets/6f495d80-7609-44d4-bd92-975fb45e2411" />
 
 ---
 
