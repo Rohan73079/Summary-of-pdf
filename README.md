@@ -83,6 +83,7 @@ Output: Summary (short/medium/long, paragraph/bullet/keywords style)
 📂 Project Structure
 ai-summary-generator/
 │── src/
+
 │   ├── components/    # Reusable UI components
 │   ├── hooks/         # Custom React hooks
 │   ├── utils/         # Helper functions
@@ -119,6 +120,6 @@ Rohan Kumar
 
 GitHub: @Rohan73079
 
-LinkedIn: nkedin.com/in/rohan-singh-16019a31a/
+LinkedIn: linkedin.com/in/rohan-singh-16019a31a/
 
 Live Project: Document AI Summary Generator
