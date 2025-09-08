@@ -1,34 +1,119 @@
+# 📑 AI Summary Generator
 
-# 📄 Summary of Pdf — AI-Powered PDF & Image Summarizer
+An AI-powered web application that extracts text from **PDFs and images** and generates summaries in different styles and lengths using **Google Gemini API**.  
+The app supports **dark/light mode, drag & drop uploads, history of summaries, download as PDF, and copy to clipboard**.
 
-Summary of Pdf is an **AI-powered summarization app** built using **React**, **Vite**, **TailwindCSS**, and **Google Gemini API**.  
-It allows users to **upload PDFs or images**, **extract text**, **generate AI summaries**, and **manage summary history**.
+🔗 **Live Demo:** [AI Summary Generator](https://document-ai-summary-frontend.vercel.app/)  
+📦 **GitHub Repo:** [Summary-of-pdf](https://github.com/Rohan73079/Summary-of-pdf)
 
 ---
 
 ## 🚀 Features
 
-✅ **AI-Powered Summaries** — Uses **Gemini API** for accurate summarization  
-✅ **PDF & Image Support** — Upload PDFs, JPG, PNG, and WebP  
-✅ **Multiple Summary Styles** — Paragraph, Bullets, Keywords  
-✅ **Custom Length** — Short, Medium, Long summaries  
-✅ **Dark & Light Theme Toggle** 🌙☀️  
-✅ **Download Summaries** as PDF  
-✅ **Copy to Clipboard** with 1 click  
-✅ **Summary History** — Stores the last 5 summaries locally  
-✅ **Drag & Drop File Upload**  
-✅ **Responsive & Minimal UI** using **TailwindCSS**  
+- 📂 **Upload PDF/Image** → Extracts text automatically  
+- ✍️ **AI Summaries** → Short / Medium / Long  
+- 📌 **Summary Styles** → Paragraph, Bullet Points, Keywords  
+- 🌙 **Dark/Light Mode** → Toggle theme  
+- 📜 **History** → Stores last 5 summaries (local storage)  
+- 📥 **Download** → Export summary as PDF  
+- 📋 **Clipboard Copy** → Copy summary with one click  
+- 🖱️ **Drag & Drop** → Easy file upload  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** [React + Vite](https://vitejs.dev/)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **Icons:** [Lucide React](https://lucide.dev/)
-- **API:** [Google Gemini API](https://ai.google.dev/)
-- **PDF Handling:** [pdf.js](https://mozilla.github.io/pdf.js/) + [jsPDF](https://parall.ax/products/jspdf)
-- **State Management:** React Hooks
+- **Frontend** → React + Vite  
+- **Styling** → TailwindCSS + Lucide Icons  
+- **AI** → Google Gemini API  
+- **PDF Handling** → pdf.js (extract text), jsPDF (download)  
+- **State Management** → React Hooks + Local Storage  
 
 ---
 
+## 📸 Screenshots
+
+### 🖥️ Main Dashboard
+*(Add screenshot here)*
+
+### 🌙 Dark Mode
+*(Add screenshot here)*
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/Rohan73079/Summary-of-pdf.git
+   cd Summary-of-pdf
+Install dependencies
+
+npm install
+
+
+Set up Environment Variables
+Create a .env file in the root folder and add your Gemini API key:
+
+VITE_GEMINI_API_KEY=your_api_key_here
+
+
+Run the development server
+
+npm run dev
+
+
+Build for production
+
+npm run build
+
+📡 API Usage (Gemini)
+
+This project uses the Google Gemini API to generate summaries.
+
+Input: Extracted text from PDF/Image
+
+Output: Summary (short/medium/long, paragraph/bullet/keywords style)
+
+📂 Project Structure
+ai-summary-generator/
+│── src/
+│   ├── components/    # Reusable UI components
+│   ├── hooks/         # Custom React hooks
+│   ├── utils/         # Helper functions
+│   ├── App.jsx        # Main App component
+│   └── main.jsx       # Entry point
+│── public/            # Static assets
+│── package.json
+│── vite.config.js
+│── README.md
+
+🧪 Future Enhancements
+
+🌍 Multi-language summarization
+
+🔐 Authentication & user accounts
+
+☁️ Cloud storage for summaries
+
+🎤 Voice input & Text-to-Speech output
+
+📊 Analytics dashboard for usage tracking
+
+🤝 Contributing
+
+Contributions are welcome! Please fork the repo and create a PR.
+
+📜 License
+
+This project is licensed under the MIT License.
+
+👨‍💻 Author
+
+Rohan Kumar
+
+GitHub: @Rohan73079
+
+LinkedIn: nkedin.com/in/rohan-singh-16019a31a/
+
+Live Project: Document AI Summary Generator
